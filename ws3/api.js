@@ -1,4 +1,4 @@
-const token = "EAAQlwzUHnYUBOwyw7G40hBHuC9qerwYgPzYy4t3uqqf6Px3ZBoCAZCMWKmkFSRsgqh6g553Em81Oysz7Eoz6F7Dhc0kNZCOivZBXIWnc9tbsEob0XU9FYiKrZCrZByvbhJEWwnuK5ZCU14K5ZCMj4mYikD6Vqz6nh31OYMA49Gq2JZCo9liRjyvOC9byaJ9AxBlDgcAZDZD";
+const token = "EAASIan0ZAEZAUBO3g6idOZCSR2DrP2CZAl1bBA5DDdBMM9TEZALJqPUmqYZBIhMkjcej3TL3WSffLND2tlRwAcUMUNqmALdK4VLd119nkwbrZBARtji09gDofz1XwzYhekvhrSZApg9Vv6QHnIEoXkcZAFrvZAdmiFrwGUMD10bGyj5Y2VQwpGy13txEiXbqFQPRiZAuwZDZD";
 const PAGE_ACCESS_TOKEN = process.env.token || token;
 const request = require('request');
 const axios = require("axios");
@@ -105,8 +105,8 @@ module.exports = {
   introduction: `Hello, I am Ice Cream Yummy AI and I am your assistant.
 Type ${prefix}help for available commands.
 
-Note: WieAI is highly recommended to use Messenger because some features won't work and limited.
-🤖 Created by Neth Aceberos`,
+Note: Ice Cream Yummy AI is highly recommended to use Messenger because some features won't work and limited.
+🤖 Created by Danilo Manto`,
   api_josh: "https://deku-rest-apis.ooguy.com",
   echavie: "https://echavie3.nethprojects.workers.dev"
 }
