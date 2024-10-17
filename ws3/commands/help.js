@@ -21,14 +21,9 @@ module.exports = {
           buttons: [
             {
               type: "web_url",
-              url: "https://www.facebook.com/kennethfranciscoaceberos",
+              url: "https://www.facebook.com/maryrose031218",
               title: "Contact Admin 1"
             },
-            {
-              type: "web_url",
-              url: "https://www.facebook.com/wieginesalpocialechavez",
-              title: "Contact Admin 2"
-            }
          ]
         }
       }
